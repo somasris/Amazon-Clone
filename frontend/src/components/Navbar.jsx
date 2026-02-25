@@ -34,7 +34,7 @@ export default function Navbar() {
     <header className="nav-wrap">
       <nav className="top-nav">
         <Link className="brand" to={user?.role === "admin" ? "/admin" : "/"}>
-          AMAZON
+          Amazon
         </Link>
         <div className="nav-links">
           {user?.role !== "admin" ? <Link to="/">Home</Link> : null}
@@ -44,7 +44,7 @@ export default function Navbar() {
           {user?.role === "admin" && <Link to="/admin/products">Products</Link>}
           {user?.role === "admin" && <Link to="/admin/orders">Orders</Link>}
           {!user ? <Link to="/login">Login</Link> : null}
-          {!user ? <Link to="/admin/login">Admin Login</Link> : null}
+          {!user ? <Link to="/admin/login">Admin</Link> : null}
           {!user ? <Link to="/signup">Signup</Link> : null}
           {user ? <button onClick={onLogout}>Logout</button> : null}
           {user ? <NotificationDropdown unread={unread} /> : null}

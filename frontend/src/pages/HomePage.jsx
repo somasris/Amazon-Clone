@@ -72,7 +72,7 @@ export default function HomePage() {
     <div className="page">
       <section className="hero">
         <h1>Deals for your {user?.account_type || "free"} plan</h1>
-        <p>Amazon-style storefront with role-based pricing visibility and live delivery updates.</p>
+        <p>Experience All-Day Comfort — Upgrade Your Routine Today</p>
       </section>
       <form className="filters" onSubmit={onSearch}>
         <input placeholder="Search by product name" value={q} onChange={(e) => setQ(e.target.value)} />

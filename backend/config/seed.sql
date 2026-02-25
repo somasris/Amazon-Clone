@@ -27,7 +27,7 @@ INSERT INTO categories (name) VALUES
 
 INSERT INTO products (name, description, image_url, price, category_id, availability, visibility_tier) VALUES
 ('Wireless Earbuds', 'Noise-canceling earbuds with long battery life.', '/images/wireless-earbuds.png', 59.99, 1, 1, 'free'),
-('Smartphone X2', '6.5-inch display smartphone with 128GB storage.', 'https://source.unsplash.com/800x800/?smartphone', 699.00, 1, 1, 'pro'),
+('Smartphone X2', '6.5-inch display smartphone with 128GB storage.', '/images/samsung.webp', 699.00, 1, 1, 'pro'),
 ('Gaming Laptop Pro', 'High-performance laptop for gaming and work.', 'https://source.unsplash.com/800x800/?gaming-laptop', 1499.99, 1, 1, 'premium'),
 ('Mystery Novel Collection', 'Set of 5 best-selling mystery novels.', '/images/mystery-novel.webp', 39.50, 2, 1, 'free'),
 ('JavaScript Mastery', 'Comprehensive JavaScript guide for developers.', '/images/javascript.jpg', 29.99, 2, 1, 'free'),
